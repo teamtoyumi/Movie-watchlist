@@ -112,10 +112,6 @@ function addToWatchlist(movieID){
                     <div class="movie-meta">
                         <p>${item.Runtime}</p>
                         <p>${item.Genre}</p>
-                        <div class="suggestions">
-                            <image src="icons/minus.png" class="plus movie">
-                            class="movie-add">Remove</button>
-                        </div>
                     </div>
                     <p class="movie-bio">${item.Plot}</p>
                 </div>
