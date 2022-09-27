@@ -1,0 +1,49 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Find your film</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="search-page">
+            <header>
+                <nav>
+                    <a href="index.html" class="header-title">Find your film</a>
+                    <button id="home-watchlist-btn" class="header-nav">My Watchlist</button>
+                </nav>
+            </header>
+            <div class="search-container">
+                <form id="form">
+                    <label for="search-bar">search</label>
+                    <input type="text" name="search-bar" id="search-bar" class="search-bar" placeholder="Blade Runner">
+                    <input type="submit" value="Search" id="search-btn" class="search-btn">    
+                </form>
+            </div>
+            <div class="initial-bg" id="initial-bg">
+                <image src="./icons/Icon.png">
+                <p class="instructions">Start exploring</p>
+            </div>
+            <div class="movies-list" id="movies-list">
+            </div>
+        </div>
+        <div id="watchlist-page" class="display">
+                <header>
+                <nav>
+                    <a href="watchlist.html" class="header-title">My Watchlist</a>
+                    <button id="watchlist-home-btn" class="header-nav">Search for movies</button>
+                </nav>
+                </header>
+                <div class="initial-bg" id="watchlist-initial-bg">
+                    <p class="instructions light">Your watchlist is looking a little empty...</p>
+                    <div class="suggestions">
+                        <image src="icons/plus.png" class="plus">
+                        <a class="suggestion-link" href="index.html">Let's add some movies!</a>
+                    </div>
+                </div>
+                <div class="movies-list" id="page2-watchlist">
+                </div>
+        <script src="index.js"></script>
+    </body>
+</html>
