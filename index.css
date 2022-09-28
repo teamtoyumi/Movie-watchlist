@@ -228,6 +228,10 @@ form label{
 
 }
 
+.movie-add:hover, .movie-add:focus{
+    font-weight: bolder;
+}
+
 .movie-meta > p {
     padding-right: 18px;
 }
