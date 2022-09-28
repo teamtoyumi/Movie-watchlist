@@ -232,6 +232,11 @@ form label{
     font-weight: bolder;
 }
 
+.movie-add:active  {
+    color: gray;
+    background-blend-mode: overlay;
+}
+
 .movie-meta > p {
     padding-right: 18px;
 }
